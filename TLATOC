@@ -1,0 +1,37 @@
+ Sistema de Monitoramento Meteorológico TLALOC
+
+Sistema inteligente de monitoramento e previsão meteorológica para prevenção de desastres naturais.
+Funcionalidades
+
+- 📊 Coleta de dados meteorológicos em tempo real
+- 🧠 Previsão com IA (LSTM + XGBoost)
+- ⚠️ Sistema de alertas para enchentes e deslizamentos
+- 📈 Dashboard interativo com Streamlit
+- 🔐 API REST segura com JWT
+- 📱 Notificações em tempo real
+
+Tecnologias
+
+- **Backend:** FastAPI, Celery, Redis
+- **IA/ML:** TensorFlow, Scikit-learn, XGBoost
+- **Banco de Dados:** PostgreSQL, Redis
+- **Frontend:** Streamlit, Plotly
+- **DevOps:** Docker, Docker Compose
+
+Instalação
+
+```bash
+Clonar repositório
+git clone https://github.com/lozt01/meteorologia-ia.git
+
+Configurar ambiente
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+pip install -r requirements.txt
+
+ Configurar variáveis de ambiente
+cp .env.example .env
+ Editar .env com suas chaves API
+
+ Executar com Docker
+docker-compose up -d
