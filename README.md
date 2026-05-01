@@ -3,7 +3,6 @@
 - 🌱 I’m currently learning to programing
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me, lozt was ok
-- 😄 Pronouns: ...
 - ⚡ Fun fact: otaku, writing and a poet in the new word
 
 <!---
